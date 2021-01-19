@@ -95,9 +95,9 @@ def get_median(number_list):
         median = number_list[len(number_list) // 2]
     else:
         temp = len(number_list) // 2 - 1
-        median = (number_list[temp] + number_list[temp + 1]) // 2
+        median = (number_list[temp] + number_list[temp + 1]) / 2
 
-    return int(median)
+    return median
 
 
 test = [39, 54, 32, 11, 99]
